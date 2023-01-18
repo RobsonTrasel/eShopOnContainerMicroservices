@@ -19,3 +19,7 @@ Para contribuir, basta seguir os seguintes passos:
 - Certifique-se de seguir as boas práticas de código e de documentação.
 
 - Aguarde a revisão do pull request e as possíveis alterações solicitadas
+
+Se você tiver alguma dúvida ou precisar de ajuda, não hesite em entrar em contato com a equipe de desenvolvimento ou abrir uma issue no repositório. Estamos ansiosos para trabalhar com você e construir juntos uma solução e-commerce incrível.
+
+Agradecemos antecipadamente por sua contribuição e colaboração para o crescimento e sucesso desse projeto open-source!
