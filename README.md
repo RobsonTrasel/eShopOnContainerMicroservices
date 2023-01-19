@@ -1,54 +1,47 @@
-
 # E-Shopping Commerce
 
-Este projeto é um exemplo de como construir um e-commerce usando uma arquitetura baseada em microserviços, escalabilidade, Event-Driven Architecture (EDA), Command-Query Responsibility Segregation (CQRS) e Java com Spring e Spring Boot.
+This project is an example of how to build an e-commerce using microservices-based architecture, scalability, Event-Driven Architecture (EDA), Command-Query Responsibility Segregation (CQRS) and Java with Spring and Spring Boot.
 
-O projeto é dividido em vários microserviços, cada um responsável por uma funcionalidade específica, como gerenciamento de produtos, carrinho de compras, pagamentos, etc. Isso permite escalar o sistema de acordo com a necessidade.
+The project is divided into several microservices, each responsible for a specific functionality, such as product management, shopping cart, payments, etc. This allows you to scale the system as needed.
 
-EDA é usada para sincronizar os microserviços e garantir que todos os dados estejam sempre atualizados. Cada microserviço é responsável por uma tarefa específica, como consultar ou modificar dados, o que ajuda a manter a arquitetura limpa e fácil de manter.
+EDA is used to synchronize the microservices and ensure that all data is always up-to-date. Each microservice is responsible for a specific task, such as querying or modifying data, which helps keep the architecture clean and easy to maintain.
 
-Os microserviços são embalados em containers, o que facilita a implantação e o gerenciamento. Java, Spring e Spring Boot são usados para desenvolver os microserviços, oferecendo recursos robustos para criar aplicativos web escaláveis e de alta performance.
+Microservices are packaged in containers, which makes deployment and management easier. Java, Spring, and Spring Boot are used to develop the microservices, providing robust capabilities to create scalable, high-performance web applications.
 
-O projeto tem como objetivo ser um exemplo e base para desenvolvimento de outros projetos de e-commerce, mas é importante lembrar que antes de usar em um ambiente de produção, é necessário seguir boas práticas de segurança e proteger informações confidenciais.
-
-
+The project aims to be an example and base for development of other e-commerce projects, but it is important to remember that before using it in a production environment, it is necessary to follow good security practices and protect sensitive information.
 
 
+## Features
 
-## Funcionalidades
+- Product management: a microservice responsible for managing the products available for sale in the e-commerce, including adding, editing and deleting products.
 
-- Gerenciamento de produtos: um microserviço responsável por gerenciar os produtos disponíveis para venda no e-commerce, incluindo adição, edição e exclusão de produtos.
+- Shopping cart: a microservice responsible for managing the items added to the shopping cart by users, including adding, editing and deleting items.
 
-- Carrinho de compras: um microserviço responsável por gerenciar os itens adicionados ao carrinho de compras pelos usuários, incluindo adição, edição e exclusão de itens.
+- Payments: a microservice responsible for processing payments, including support for various payment methods, such as credit card, debit card, bank transfer, and boleto.
 
-- Pagamentos: um microserviço responsável por processar pagamentos, incluindo suporte para vários métodos de pagamento, como cartão de crédito, débito, transferência bancária e boleto.
+- Authentication and authorization: a microservice responsible for managing user authentication and authorization, including registration, login, and permissions management.
 
-- Autenticação e autorização: um microserviço responsável por gerenciar a autenticação e autorização dos usuários, incluindo registro, login e gerenciamento de permissões.
+- Monitoring and management: a microservice responsible for collecting metrics and providing an interface to manage and monitor the state of microservices.
 
-- Monitoramento e gerenciamento: um microserviço responsável por coletar métricas e fornecer uma interface para gerenciar e monitorar o estado dos microserviços.
+- Order management: a microservice responsible for managing orders, including processing, tracking, and delivery.
 
-- Gerenciamento de pedidos: um microserviço responsável por gerenciar os pedidos, incluindo o processamento, rastreamento e entrega.
+- Inventory management: a microservice responsible for managing the inventory of products, including updating the inventory when a product is added to the shopping cart or an order is processed.
 
-- Gerenciamento de estoque: um microserviço responsável por gerenciar o estoque de produtos, incluindo a atualização do estoque quando um produto é adicionado ao carrinho de compras ou um pedido é processado.
+- Product Recommendation: a microservice responsible for providing product recommendations based on the user's purchase history and shopping behavior data.
+## Contributing
 
-- Recomendação de Produtos: um microserviço responsável por fornecer recomendações de produtos baseadas no histórico de compras do usuário e nos dados de comportamento de compras.
+Contributions are always welcome!
 
+See `contributing.md` for how to get started.
 
-## Contribuindo
-
-Contribuições são sempre bem-vindas!
-
-Veja `contribuindo.md` para saber como começar.
-
-Por favor, siga o `código de conduta` desse projeto.
+Please follow the `code of conduct' for this project.
 
 
 ## Feedback
 
-Se você tiver algum feedback, por favor nos deixe saber por meio de robson.trasel@gmail.com
+If you have any feedback, please let us know at robson.trasel@gmail.com
 
 
-## Licença
+## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
