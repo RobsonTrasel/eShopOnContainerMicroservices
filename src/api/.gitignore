@@ -40,3 +40,4 @@ out/
 ### Application Config ###
 
 **/src/main/**/application.properties
+.env
